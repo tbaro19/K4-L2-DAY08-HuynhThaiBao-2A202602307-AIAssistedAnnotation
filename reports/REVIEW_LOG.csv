@@ -1,0 +1,6 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0270.jpg,Xe con tối màu ở mép làn bên phải chỉ thấy đèn hậu,added,Theo GUIDELINE_LABEL.md: dù thân xe tối nhưng vẫn xác định được hình dạng thân xe quanh cụm đèn nên bổ sung box
+1,frame_0182.jpg,Hai xe ô tô di chuyển sát nhau bị AI gộp chung thành một box,edited,Theo GUIDELINE_LABEL.md: hai xe đi sát nhau phải tách riêng thành hai box độc lập ôm sát thân từng xe
+1,frame_0331.jpg,Vệt sáng đèn pha phản chiếu trên mặt đường cao tốc,deleted,Theo GUIDELINE_LABEL.md: ánh sáng phản chiếu trên mặt đường không phải là xe nên xóa bỏ box giả của AI
+1,frame_0380.jpg,Xe tải thùng lớn ở làn trung tâm nhìn rõ toàn bộ thân,accepted,Theo GUIDELINE_LABEL.md: box dự đoán của AI đã ôm sát thân xe hợp lệ từ 4 bánh trở lên nên giữ nguyên
+1,frame_0107.jpg,Xe con bị xe phía trước che khuất một phần thân trước,edited,Theo GUIDELINE_LABEL.md: phương tiện bị che khuất chỉ vẽ box cho phần nhìn thấy được nên chỉnh lại ranh giới
